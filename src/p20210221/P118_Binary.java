@@ -10,6 +10,7 @@ public class P118_Binary {
         System.out.println(result);
     }
 
+    // A[]의 연속된 부분 구간의 최대합을 구한다. 시간복잡도 O(NlogN)
     public static int fastMaxSum(int [] A, int lo, int hi) {
         // 기저사례 : 구간의 길이가 1인 경우
         if (lo == hi) return A[lo];
